@@ -3,8 +3,11 @@ Simple Powercord Morse Encoder/Decoder
 
 # Usage
 ## Commands
-<prefix>morse [text] - Encode Morse
-<prefix>demorse [text] - Decode Morse
+.morse [text] - Encode Morse
+
+.demorse [text] - Decode Morse
+
+(. = powercord prefix)
 
 ## API
 This plugin comes with 2 new functions (powercord.morse.encode, powercord.morse.decode).
