@@ -1,0 +1,7 @@
+{
+  "name": "Morse",
+  "version": "1.0.0",
+  "description": "Encode/Decode Morse.",
+  "author": "Lil Sizzurp",
+  "license": "MIT"
+}
