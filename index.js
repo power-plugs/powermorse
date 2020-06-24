@@ -2,8 +2,8 @@ const { Plugin } = require('powercord/entities');
 
 module.exports = class Morse extends Plugin {
   startPlugin () {
-    this.registerCommand('morse',[],'Morse-ify text','{c} [text to morse]',(args) => ({send: true,result: powercord.morse.encode(args.join(" "))}));
-    this.registerCommand('demorse',[],'De-morse-ify text','{c} [text to morse]',(args) => ({send: true,result: powercord.morse.decode(args.join(" "))})
+        powercord.api.commands.registerCommand({command: 'morse', aliases: [], description: 'Morse-ify text', usage: '{c} [text to morse]', executor: (args) => ({send: true,result: powercord.morse.encode(args.join(" "))})});
+        powercord.api.commands.registerCommand({command: 'demorse', aliases: [], description: 'De-morse-ify text', usage: '{c} [text to morse]', executor: (args) => ({send: true,result: powercord.morse.decode(args.join(" "))})});
     );
   }
 };
