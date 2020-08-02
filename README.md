@@ -1,4 +1,4 @@
-# Descrption
+# Description
 Simple Powercord Morse Encoder/Decoder
 
 # Usage
